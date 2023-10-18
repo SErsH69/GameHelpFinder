@@ -1,68 +1,8 @@
 @font-face {
-	font-family: "Gotham";
-	font-display: swap;
-	src: url("../fonts/Gotham-Book.woff2") format("woff2"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.ttf") format("ttf");
-	font-weight: 400;
-}
-@font-face {
-	font-family: "Gotham";
-	font-display: swap;
-	src: url("../fonts/Gotham-Black.woff2") format("woff2"), url("../fonts/Gotham-Black.woff") format("woff"), url("../fonts/Gotham-Black.ttf") format("ttf");
-	font-weight: 900;
-}
-@font-face {
-	font-family: "Gotham";
-	font-display: swap;
-	src: url("../fonts/Gotham-Light.woff2") format("woff2"), url("../fonts/Gotham-Light.woff") format("woff"), url("../fonts/Gotham-Light.ttf") format("ttf");
-	font-weight: 300;
-}
-@font-face {
-	font-family: "Gotham";
-	font-display: swap;
-	src: url("../fonts/Gotham-Medium.woff2") format("woff2"), url("../fonts/Gotham-Medium.woff") format("woff"), url("../fonts/Gotham-Medium.ttf") format("ttf");
-	font-weight: 500;
-}
-@font-face {
-	font-family: "Gotham";
-	font-display: swap;
-	src: url("../fonts/Gotham-Bold.woff2") format("woff2"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("ttf");
-	font-weight: 700;
-}
-@font-face {
-	font-family: "Gotham";
-	font-display: swap;
-	src: url("../fonts/Gotham-XLight.woff2") format("woff2"), url("../fonts/Gotham-XLight.woff") format("woff"), url("../fonts/Gotham-XLight.ttf") format("ttf");
-	font-weight: 400;
-}
-@font-face {
-	font-family: "Gotham";
-	font-display: swap;
-	src: url("../fonts/Gotham-Thin.woff2") format("woff2"), url("../fonts/Gotham-Thin.woff") format("woff"), url("../fonts/Gotham-Thin.ttf") format("ttf");
-	font-weight: 100;
-}
-@font-face {
-	font-family: "Gotham";
-	font-display: swap;
-	src: url("../fonts/Gotham-Ultra.woff2") format("woff2"), url("../fonts/Gotham-Ultra.woff") format("woff"), url("../fonts/Gotham-Ultra.ttf") format("ttf");
-	font-weight: 400;
-}
-@font-face {
-	font-family: "Oddval";
-	font-display: swap;
-	src: url("../fonts/Oddval-ExtraBold.woff2") format("woff2"), url("../fonts/Oddval-ExtraBold.woff") format("woff"), url("../fonts/Oddval-ExtraBold.ttf") format("ttf");
-	font-weight: 800;
-}
-@font-face {
 	font-family: "Oddval";
 	font-display: swap;
 	src: url("../fonts/Oddval-Bold.woff2") format("woff2"), url("../fonts/Oddval-Bold.woff") format("woff"), url("../fonts/Oddval-Bold.ttf") format("ttf");
 	font-weight: 700;
-}
-@font-face {
-	font-family: "Oddval";
-	font-display: swap;
-	src: url("../fonts/Oddval-Black.woff2") format("woff2"), url("../fonts/Oddval-Black.woff") format("woff"), url("../fonts/Oddval-Black.ttf") format("ttf");
-	font-weight: 900;
 }
 @font-face {
 	font-family: "Oddval";
@@ -79,8 +19,8 @@
 @font-face {
 	font-family: "Oddval";
 	font-display: swap;
-	src: url("../fonts/Oddval-Regular.woff2") format("woff2"), url("../fonts/Oddval-Regular.woff") format("woff"), url("../fonts/Oddval-Regular.ttf") format("ttf");
-	font-weight: 400;
+	src: url("../fonts/Oddval-ExtraBold.woff2") format("woff2"), url("../fonts/Oddval-ExtraBold.woff") format("woff"), url("../fonts/Oddval-ExtraBold.ttf") format("ttf");
+	font-weight: 800;
 }
 @font-face {
 	font-family: "Oddval";
@@ -99,4 +39,16 @@
 	font-display: swap;
 	src: url("../fonts/Oddval-Thin.woff2") format("woff2"), url("../fonts/Oddval-Thin.woff") format("woff"), url("../fonts/Oddval-Thin.ttf") format("ttf");
 	font-weight: 100;
+}
+@font-face {
+	font-family: "Oddval";
+	font-display: swap;
+	src: url("../fonts/Oddval-Regular.woff2") format("woff2"), url("../fonts/Oddval-Regular.woff") format("woff"), url("../fonts/Oddval-Regular.ttf") format("ttf");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Oddval";
+	font-display: swap;
+	src: url("../fonts/Oddval-Black.woff2") format("woff2"), url("../fonts/Oddval-Black.woff") format("woff"), url("../fonts/Oddval-Black.ttf") format("ttf");
+	font-weight: 900;
 }

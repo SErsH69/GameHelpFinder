@@ -1,0 +1,115 @@
+.page_error {
+    position: relative;
+    padding-top: vw(400);
+    padding-bottom: vw(80);
+    @media all and (max-width: 1023px) {
+        padding-top: 88px;
+        padding-bottom: 32px;
+    }
+    &__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        pointer-events: none;
+        font-size: 0;
+        img {
+            width: 100%;
+        }
+        @media all and (max-width: 1023px) {
+            width: 170%;
+            margin-left: -29%;
+            &:before {
+                content: '';
+                position: absolute; 
+                left: 0;
+                right: 0;
+                top: 10%;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(00deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+            }
+        }
+    }
+    &__in {
+        position: relative;
+        z-index: 2;
+    }
+    &__title {
+        color: var(--2-white, #FFF);
+        font-size: vw(72);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        text-transform: uppercase;
+        padding-bottom: vw(24);
+        span {
+            color: #FF7C34;
+        }
+        @media all and (max-width: 1023px) {
+            font-size: 32px;
+            padding-bottom: 24px;
+        }
+    }
+    &__text {
+        padding-bottom: vw(24);
+        color: var(--primary-white, #FFF);
+        font-size: vw(20);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        @media all and (max-width: 1023px) {
+            font-size: 16px;
+            padding-bottom: 24px;
+        }
+    }
+    &__link {
+        border-radius: 4px;
+        background: var(--2-orange, #FF7C34);
+        color: var(--2-white, #FFF);
+        font-size: vw(18);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 111%;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        padding: vw(14) vw(52) vw(14) vw(20);
+        @media all and (max-width: 1023px) {
+            font-size: 14px;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+        }
+        span {
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                right: vw(-32);
+                width: vw(20);
+                top: 50%;
+                height: vw(20);
+                margin-top: vw(-10);
+                background: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M13.7918 14.6881L18.0131 10.4352C18.1472 10.3007 18.2141 10.1225 18.2141 9.94527C18.2141 9.76823 18.1472 9.59152 18.0131 9.45622L13.7918 5.20345C13.5234 4.93218 13.0879 4.93218 12.8197 5.20345C12.5511 5.47373 12.5511 5.91228 12.8197 6.18289L15.7081 9.09286H3.33333C2.8731 9.09286 2.5 9.46595 2.5 9.92619C2.5 10.3864 2.8731 10.7595 3.33333 10.7595H15.746L12.819 13.7086C12.5511 13.9788 12.5511 14.4176 12.819 14.6881C13.0873 14.9584 13.5227 14.9584 13.7918 14.6881Z' fill='white'/%3E%3C/svg%3E%0A") 50% / 100% no-repeat;
+                @media all and (max-width: 1023px) {
+                    width: 20px;
+                    height: 20px;
+                    margin-top: -10px;
+                    right: -32px;
+                }
+            }
+        }
+        &:hover {
+            background: #fff;
+            color: #FF7C34;
+            span {
+                &:before {
+                    background: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M13.7918 14.6881L18.0131 10.4352C18.1472 10.3007 18.2141 10.1225 18.2141 9.94527C18.2141 9.76823 18.1472 9.59152 18.0131 9.45622L13.7918 5.20345C13.5234 4.93218 13.0879 4.93218 12.8197 5.20345C12.5511 5.47373 12.5511 5.91228 12.8197 6.18289L15.7081 9.09286H3.33333C2.8731 9.09286 2.5 9.46595 2.5 9.92619C2.5 10.3864 2.8731 10.7595 3.33333 10.7595H15.746L12.819 13.7086C12.5511 13.9788 12.5511 14.4176 12.819 14.6881C13.0873 14.9584 13.5227 14.9584 13.7918 14.6881Z' fill='%23FF7C34'/%3E%3C/svg%3E%0A") 50% / 100% no-repeat;
+                }
+            }
+        }
+    }
+}

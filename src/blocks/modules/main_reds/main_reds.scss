@@ -1,0 +1,49 @@
+.main_reds {
+    padding-bottom: vw(16);
+    margin-top: vw(40);
+    @media all and (max-width: 1023px) {
+        padding-bottom: 0;
+        margin-top: 16px;
+    }
+    &__red {
+        margin-bottom: vw(24);
+        padding: vw(48);
+        border-radius: 4px;
+        background: var(--2-black, #24262F);
+        @media all and (max-width: 1023px) {
+            margin-bottom: 16px;
+            padding: 20px;
+        }
+    }
+    &__title {
+        color: var(--primary-white, #FFF);
+        font-size: vw(32);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        text-transform: uppercase;
+        margin-bottom: vw(24);
+        @media all and (max-width: 1023px) {
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+    }
+    &__text {
+        color: var(--2-white, #FFF);
+        font-size: vw(16);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        @media all and (max-width: 1023px) {
+            font-size: 12px;
+        }
+        p {
+            &:first-child {
+                margin-top: 0;
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

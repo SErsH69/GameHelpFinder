@@ -1,5 +1,7 @@
 .footer {
     background: var(--2-black, #24262F);
+    position: relative;
+    z-index: 2;
     &__in {
         padding-top: vw(40);
         padding-bottom: vw(40);
