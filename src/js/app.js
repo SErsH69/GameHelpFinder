@@ -6,6 +6,7 @@ import $ from 'jquery';
 
 import Header from '../blocks/modules/header/header.js';
 import MainProd from '../blocks/modules/main_prod/main_prod.js';
+import MainOtz from '../blocks/modules/main_otz/main_otz.js';
 import MainFaq from '../blocks/modules/main_faq/main_faq.js';
 import FaqPage from '../blocks/modules/faq_page/faq_page.js';
 import Footer from '../blocks/modules/footer/footer.js';
@@ -24,6 +25,7 @@ window.app = new Vue({
             isMobileMenuOpened: false,
         }),
         mainProd: new MainProd(),
+        mainOtz: new MainOtz(),
         mainFaq: new MainFaq(),
         faqPage: new FaqPage(),
         footer: new Footer(),
@@ -42,6 +44,7 @@ window.app = new Vue({
         this.isMounted = true;
         this.header.init();
         this.mainProd.init();
+        this.mainOtz.init();
         this.mainFaq.init();
         this.faqPage.init();
         this.footer.init();

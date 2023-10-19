@@ -1,0 +1,110 @@
+.card_block {
+    padding-top: vw(40);
+    padding-bottom: vw(40);
+    @media all and (max-width: 1023px) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    &__block {
+        &:not(:last-child) {
+            margin-bottom: vw(80);
+            @media all and (max-width: 1023px) {
+                margin-bottom: 32px;
+            }
+        }
+        padding: vw(48);
+        background: var(--2-black, #24262F);
+        @media all and (max-width: 1023px) {
+            padding: 20px;
+        }
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: vw(24);
+        @media all and (max-width: 1023px) {
+            margin-bottom: 16px;
+            flex-direction: column;
+        }
+    }
+    &__l-side {
+        width: 100%;
+    }
+    &__logo {
+        width: 100%;
+        font-size: 0;
+        display: block;
+        max-width: vw(174);
+        margin-bottom: vw(32);
+        @media all and (max-width: 1023px) {
+            max-width: 174px;
+            margin-bottom: 16px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    &__title {
+        color: var(--1-white, #FFF);
+        font-size: vw(72);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        text-transform: uppercase;
+        span {
+            color: var(--2-orange, #FF7C34);
+        }
+        @media all and (max-width: 1023px) {
+            font-size: 32px;
+            margin-bottom: 16px;    
+        }
+    }
+    &__r-side {
+        flex: 0 0 vw(420);
+        margin-left: vw(64);
+        @media all and (max-width: 1023px) {
+            flex: none;
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        @media all and (max-width: 1023px) {
+            flex-direction: column-reverse;
+        }
+        .main_websites__text {
+            font-size: vw(16);
+            @media all and (max-width: 1023px) {
+                font-size: 12px;
+            }
+        }
+        .main_websites__list {
+            margin-left: 0;
+            margin-right: vw(32);
+            @media all and (max-width: 1023px) {
+                margin-right: 0;
+            }
+        }
+    }
+    .main_websites__bottom {
+        @media all and (max-width: 1023px) {
+            .main_websites__link {
+                display: block !important;
+                font-size: 14px;
+            }
+        }
+    }
+    &__info-txt {
+        color: var(--2-white, #FFF);
+        font-size: vw(16);
+        font-style: normal;
+        font-weight: 400;
+        @media all and (max-width: 1023px) {
+            font-size: 12px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            text-transform: uppercase;
+        }
+    }
+}
