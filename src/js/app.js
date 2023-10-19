@@ -5,6 +5,7 @@ import Vue from 'vue/dist/vue.js';
 import $ from 'jquery';
 
 import Header from '../blocks/modules/header/header.js';
+import MainProd from '../blocks/modules/main_prod/main_prod.js';
 import MainFaq from '../blocks/modules/main_faq/main_faq.js';
 import FaqPage from '../blocks/modules/faq_page/faq_page.js';
 import Footer from '../blocks/modules/footer/footer.js';
@@ -22,6 +23,7 @@ window.app = new Vue({
         header: new Header({
             isMobileMenuOpened: false,
         }),
+        mainProd: new MainProd(),
         mainFaq: new MainFaq(),
         faqPage: new FaqPage(),
         footer: new Footer(),
@@ -39,6 +41,7 @@ window.app = new Vue({
     beforeMount() {
         this.isMounted = true;
         this.header.init();
+        this.mainProd.init();
         this.mainFaq.init();
         this.faqPage.init();
         this.footer.init();
