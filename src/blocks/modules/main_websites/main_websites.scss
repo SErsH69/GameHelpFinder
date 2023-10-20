@@ -1,7 +1,7 @@
 .main_websites {
     padding-top: vw(40);
     padding-bottom: vw(24);
-    @media akk and (max-width: 1023px) {
+    @media all and (max-width: 1023px) {
         padding-top: 16px;
         padding-bottom: 0px;
     }
