@@ -37,9 +37,9 @@
         max-width: vw(174);
         margin-bottom: vw(32);
         @media all and (max-width: 1023px) {
-            max-width: 174px;
+            max-width: 137px;
             margin-bottom: 16px;
-            margin-left: auto;
+            margin-left: 0;
             margin-right: auto;
         }
     }
@@ -99,7 +99,7 @@
         color: var(--2-white, #FFF);
         font-size: vw(16);
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         @media all and (max-width: 1023px) {
             font-size: 12px;
         }
