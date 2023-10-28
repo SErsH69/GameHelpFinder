@@ -38,6 +38,9 @@
         display: block; 
         font-size: 0;
         width: 100%;
+        img {
+            width: 100%;
+        }
         @media all and (max-width: 1023px) {
             width: 140px;
             margin-bottom: 20px;
@@ -108,8 +111,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: vw(-7);
         @media all and (max-width: 1023px) {
             flex-direction: column;
+            margin-top: 0;
         }
     }
     &__ratings {
@@ -125,7 +130,7 @@
         background: var(--2-back-grey, #434859);
         display: flex;
         align-items: center;
-        padding: vw(12);
+        padding: vw(10) vw(6);
         margin-right: vw(32);
         @media all and (max-width: 1023px) {
             padding: 12px;
@@ -224,6 +229,8 @@
             top: 0;
             left: 0;
             right: 0;
+            display: flex;
+            align-items: center;
             @media all and (max-width: 1023px) {
                 display: none;
             }
@@ -231,6 +238,8 @@
         &--isActive {
             position: relative;
             z-index: 2;
+            display: flex;
+            align-items: center;
         }
         span {
             color: var(--1-white, #FFF);

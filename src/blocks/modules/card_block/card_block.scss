@@ -107,4 +107,93 @@
             text-transform: uppercase;
         }
     }
+    &__info {
+        &--adv {
+            padding: vw(48) 0;
+            padding-bottom: vw(24);
+            display: flex;
+            flex-wrap: wrap;
+            @media all and (max-width: 1023px) {
+                padding-top: 16px;
+                padding-bottom: 8px;
+                flex-direction: column;
+            }
+        }
+        &--adv-title {
+            color: var(--2-white, #FFF);
+            font-size: vw(32);
+            font-style: normal;
+            font-weight: 600;
+            line-height: 125%;
+            text-transform: uppercase;
+            width: 100%;
+            margin-bottom: vw(25);
+            @media all and (max-width: 1023px) {
+                font-size: 24px;
+                margin-bottom: 8px;
+            }
+        }
+        &--adv-blocks {
+            display: flex;
+            flex-direction: column;
+            width: vw(230);
+            margin-right: vw(24);
+            @media all and (max-width: 1023px) {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+        &--adv-block {
+            display: flex;
+            align-items: center;
+            margin-bottom: vw(24);
+            @media all and (max-width: 1023px) {
+                margin-bottom: 8px;
+            }
+        }
+        &--adv-img {
+            flex: 0 0 vw(44);
+            width: vw(44);
+            border-radius: 4px;
+            background: var(--2-text-grey, #747B90);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: vw(44);
+            margin-right: vw(24);
+            font-size: 0;
+            @media all and (max-width: 1023px) {
+                margin-right: 16px;
+                flex: 0 0 44px;
+                width: 44px;
+                height: 44px;
+            }
+            img {
+                width: vw(25);
+                height: vw(25);
+                object-fit: contain;
+                @media all and (max-width: 1023px) {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+        &--adv-tit {
+            width: 100%;
+            color: var(--primary-white, #FFF);
+            font-size: vw(14);
+            font-style: normal;
+            font-weight: 600;
+            line-height: 143%;
+            text-transform: uppercase;
+            @media all and (max-width: 1023px) {
+                font-size: 12px;
+            }
+        }
+        &--black {
+            .card_block__info--adv-img {
+                background: #000;
+            }
+        }
+    }
 }

@@ -1,6 +1,12 @@
 @font-face {
 	font-family: "Oddval";
 	font-display: swap;
+	src: url("../fonts/Oddval-Black.woff2") format("woff2"), url("../fonts/Oddval-Black.woff") format("woff"), url("../fonts/Oddval-Black.ttf") format("ttf");
+	font-weight: 900;
+}
+@font-face {
+	font-family: "Oddval";
+	font-display: swap;
 	src: url("../fonts/Oddval-ExtraBold.woff2") format("woff2"), url("../fonts/Oddval-ExtraBold.woff") format("woff"), url("../fonts/Oddval-ExtraBold.ttf") format("ttf");
 	font-weight: 800;
 }
@@ -13,14 +19,8 @@
 @font-face {
 	font-family: "Oddval";
 	font-display: swap;
-	src: url("../fonts/Oddval-Light.woff2") format("woff2"), url("../fonts/Oddval-Light.woff") format("woff"), url("../fonts/Oddval-Light.ttf") format("ttf");
-	font-weight: 300;
-}
-@font-face {
-	font-family: "Oddval";
-	font-display: swap;
-	src: url("../fonts/Oddval-Bold.woff2") format("woff2"), url("../fonts/Oddval-Bold.woff") format("woff"), url("../fonts/Oddval-Bold.ttf") format("ttf");
-	font-weight: 700;
+	src: url("../fonts/Oddval-Medium.woff2") format("woff2"), url("../fonts/Oddval-Medium.woff") format("woff"), url("../fonts/Oddval-Medium.ttf") format("ttf");
+	font-weight: 500;
 }
 @font-face {
 	font-family: "Oddval";
@@ -37,14 +37,14 @@
 @font-face {
 	font-family: "Oddval";
 	font-display: swap;
-	src: url("../fonts/Oddval-Medium.woff2") format("woff2"), url("../fonts/Oddval-Medium.woff") format("woff"), url("../fonts/Oddval-Medium.ttf") format("ttf");
-	font-weight: 500;
+	src: url("../fonts/Oddval-Bold.woff2") format("woff2"), url("../fonts/Oddval-Bold.woff") format("woff"), url("../fonts/Oddval-Bold.ttf") format("ttf");
+	font-weight: 700;
 }
 @font-face {
 	font-family: "Oddval";
 	font-display: swap;
-	src: url("../fonts/Oddval-Black.woff2") format("woff2"), url("../fonts/Oddval-Black.woff") format("woff"), url("../fonts/Oddval-Black.ttf") format("ttf");
-	font-weight: 900;
+	src: url("../fonts/Oddval-Light.woff2") format("woff2"), url("../fonts/Oddval-Light.woff") format("woff"), url("../fonts/Oddval-Light.ttf") format("ttf");
+	font-weight: 300;
 }
 @font-face {
 	font-family: "Oddval";
